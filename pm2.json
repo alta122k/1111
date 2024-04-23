@@ -1,0 +1,14 @@
+{
+  "apps": [
+    {
+      "name": "NRO UNO SERVER",
+      "script": "java",
+      "args": ["-server","-jar", "LeHai.jar"],
+      "autorestart": true,
+      "watch": false,
+      "max_memory_restart": "6G",
+      "ignore_watch": ["data","lib","tanh_log"]
+    }
+  ]
+}
+
