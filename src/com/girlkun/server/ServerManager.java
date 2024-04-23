@@ -73,12 +73,12 @@ public class ServerManager {
     }
 
     public void run() {
-        JFrame frame = new JFrame("PANEL ADMIN");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        JPanel panel = new Panel();
-        frame.add(panel);
-        frame.pack();
-        frame.setVisible(true);
+        // JFrame frame = new JFrame("PANEL ADMIN");
+        // frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        // JPanel panel = new Panel();
+        // frame.add(panel);
+        // frame.pack();
+        // frame.setVisible(true);
         
         long delay = 500;
         isRunning = true;
